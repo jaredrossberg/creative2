@@ -11,17 +11,21 @@
     <h1>Currency Converter</h1>
 
     <form>
-        <label id=inputLabel>Enter an amount:</label><br>
+        <label id=inputLabel class=formText>Enter an amount:</label><br>
         <input id="moneyAmount" type="number"></input><br />
 
-        <label for="currencyFrom">Select an input currency:</label>
-        <select id=currencyFrom></select><br>
+        <label for="currencyFrom" class=formText>Select an input currency:</label>
+        <select id=currencyFrom>
+            <option value="USD">USD</option>
+        </select><br>
 
-        <label for="currencyTo">Select an output currency:</label>
-        <select id=currencyTo></select><br>
+        <label for="currencyTo" class=formText>Select an output currency:</label>
+        <select id=currencyTo>
+            <option value="USD">USD</option>
+        </select><br>
 
         <input id="submit" type="submit" value="Convert"></input>
-        <input id="getAll" type="submit" value="Get All"></input>
+        <input id="getAll" type="submit" value="Get All Conversions"></input>
 
     </form><br>
 
@@ -31,12 +35,11 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <!--script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js" integrity="sha256-ngFW3UnAN0Tnm76mDuu7uUtYEcG3G5H1+zioJw3t+68=" crossorigin="anonymous"></script-->
     <script text="type/javascript" src="/script.js"></script>
 </body>
 
 <div class="footer">
-    <p><a href="https://github.com/jaredrossberg/creative2">Link to Github</a></p>
+    <p><a href="https://github.com/jaredrossberg/creative2">View source code on Github</a></p>
 </div>
 
 </html>
